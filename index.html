@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content=""/>
+	<meta name="keywords" content=""/>
+	<meta name="author" content=""/>
+	
+    <!-- Bootstrap -->
+    <link href="./Box/css/bootstrap.min.css" rel="stylesheet">
+	<link href="./Box/ionicons/css/ionicons.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="Design.css">
+	<link rel="stylesheet" href="Design copy 2.css">
+	<link rel="stylesheet" href="Design copy 3.css">
+
+    <!-- main css -->
+    <link href="./Box/css/style.css" rel="stylesheet">
+		<link rel="stylesheet" href="Design copy.css">
+    <!-- modernizr -->
+    <script src="./Box/js/modernizr.js"></script>
+ 
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Simple Line Icons -->
+	<link rel="stylesheet" href="css/simple-line-icons.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Style -->
+	<link rel="stylesheet" href="css/style.css">
+
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+	</head>
+	<body>
+	<header role="banner" id="fh5co-header">
+		<div class="fluid-container">
+			<nav class="navbar navbar-default navbar-fixed-top js-fullheight">
+				<div id="navbar" class="navbar-collapse js-fullheight">
+					<ul class="nav navbar-nav navbar-left">
+						<li class="active"><a href="#" data-nav-section="home"><span>Home</span></a></li>
+						<li><a href="#" data-nav-section="services"><span>Navigation</span></a></li>
+						<li><a href="#" data-nav-section="explore"><span>Projects</span></a></li>
+						<li><a href="#" data-nav-section="pricing"><span>Carousal</span></a></li>
+						<li><a href="#" data-nav-section="team"><span>Footer</span></a></li>
+					</ul>
+				</div>
+			</nav>
+	  </div>
+	</header>
+	<section class="box-intro" data-section="home">
+		<div class="table-cell">
+			<h1 class="box-headline letters rotate-2">
+				<span class="box-words-wrapper">
+					 <b class="is-visible">Lorem.</b>
+					 <b>&nbsp;&nbsp; Ipsum.</b>
+					 <b>Lorem.</b>
+					 <b>Ipsum.</b>
+				</span>
+			</h1>
+		</div>
+		<video autoplay muted loop id="myVideo" style="
+			position: relative;
+			left: -360px;
+			bottom: 0;
+			height:100vh;
+			min-width: 100%; 
+			min-height: 100%;
+			z-index:-20;
+		  ">
+		  <script>
+			  var e = document.getElementById("myVideo");
+e.style.opacity = 0;
+
+var vid = document.getElementById("myVideo");
+vid.oncanplaythrough = function() {
+    setTimeout(function() {
+        var e = document.getElementById('myVideo');
+        fade(e);
+    }, 1000);
+};
+
+function fade(element) {
+    var op = 0;
+    var timer = setInterval(function() {
+        if (op >= 0.4) clearInterval(timer);
+        element.style.opacity = op;
+        element.style.filter = 'alpha(opacity=' + op * 100 + ")";
+        op += op * 0.1 || 0.1;
+    }, 50);
+}
+		  </script>
+			<source src="Tunnel - 56628.mp4" type="video/mp4">
+		  </video>
+		  <svg id="star-svg" width="5" height="1060" viewBox="0 0 5 1060" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<line id="star-path" x1="0.999998" y1="-0.00194174" x2="3.05825" y2="1060" stroke="#FFD000" stroke-width="2"/>
+			</svg>
+			
+			<script src="Design copy 2.js"></script>	
+			<script src="Design.js"></script>
+
+		<div class="mouse">
+			<div class="scroll"></div>
+		</div>
+	</section>
+	
+	<section id="fh5co-services" data-section="services">
+		<div class="fh5co-services">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 section-heading text-center">
+						<h2 class="to-animate" style="color: #ffffff;">Lorem</h2>
+						<div class="row">
+							<div class="col-md-12 text-center subtext ">
+								<h3 class="to-animate">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+								</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="core-features">
+						<div class="grid2 to-animate" style="background-image: url(images/full_image_2.jpg);">
+						</div>
+						<div class="grid2">
+							<div class="core-f">
+								<div class="row">
+									<div class="col-md-12">
+										<div class="core">
+											<i class="icon-cloud-download to-animate-2"></i>
+											<div class="fh5co-post to-animate">
+												<h3>Ipsum</h3>
+												<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, perspiciatis nisi explicabo quia inventore nulla doloremque, corrupti facilis similique praesentium cum! Necessitatibus, officiis laborum fugit voluptatum accusantium rerum aut nam?</p>
+											</div>
+										</div>
+										<div class="core">
+											<i class="icon-laptop to-animate-2"></i>
+											<div class="fh5co-post to-animate">
+												<h3>ipsum</h3>
+												<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit cum voluptate quo laudantium officiis perspiciatis velit non ea vitae voluptas exercitationem quisquam error obcaecati commodi unde, cumque quibusdam quis blanditiis!</p>
+											</div>
+										</div>
+										
+										<div class="core">
+											<i class="icon-code to-animate-2"></i>
+											<div class="fh5co-post to-animate">
+												<h3>Lorem</h3>
+												<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti, est. Dolore consequuntur unde magnam repudiandae nobis consequatur quam blanditiis aperiam illum. Tempore consectetur maxime cumque accusantium fugit, iste facilis sapiente?</p>
+											</div>
+										</div>
+										<div class="core">
+											<i class="icon-terminal to-animate-2"></i>
+											<div class="fh5co-post to-animate">
+												<h3>Lorem</h3>
+												<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium eligendi ea, culpa voluptatum placeat veritatis numquam itaque iusto eveniet dolores deserunt provident asperiores dolor fugiat nisi sunt similique ad explicabo!</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div id="fh5co-counter-section" class="fh5co-counters">
+					<div class="container">
+						<div class="row to-animate">
+							<div class="col-md-3 text-center">
+								<span class="fh5co-counter js-counter" data-from="0" data-to="1000" data-speed="2800" data-refresh-interval="50"></span>
+								<span class="fh5co-counter-label" style="color: #ffd000;">Lorem</span>
+							</div>
+							<div class="col-md-3 text-center">
+								<span class="fh5co-counter js-counter" data-from="0" data-to="50" data-speed="3500" data-refresh-interval="50"></span>
+								<span class="fh5co-counter-label" style="color: #ffd000;">Lorem</span>
+							</div>
+							<div class="col-md-3 text-center">
+								<span class="fh5co-counter js-counter" data-from="0" data-to="500" data-speed="4200" data-refresh-interval="50"></span>
+								<span class="fh5co-counter-label" style="color: #ffd000;">Ipsum</span>
+							</div>
+							<div class="col-md-3 text-center">
+								<span class="fh5co-counter js-counter" data-from="0" data-to="4000" data-speed="4900" data-refresh-interval="50"></span>
+								<span class="fh5co-counter-label" style="color: #ffd000;">Ipsum</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	 <!-- portfolio div -->
+<div class="portfolio-div">
+	<div class="portfolio">
+		<div class="no-padding portfolio_container">
+			
+			<!-- single work -->
+			<div class="col-md-2 col-sm-6 graphics ads">
+				<a href="single-project.html" class="portfolio_item">
+					<img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
+					<div class="portfolio_item_hover">
+						<div class="portfolio-border clearfix">
+							<div class="item_info">
+								<span>Lorem</span>
+								<em>Ipsum</em>
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>
+			<!-- end single work -->
+
+			<!-- single work -->
+			<div class="col-md-2 col-sm-6 graphics ads">
+				<a href="single-project.html" class="portfolio_item1">
+					<img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
+					<div class="portfolio_item_hover">
+						<div class="portfolio-border clearfix">
+							<div class="item_info">
+								<span>Lorem</span>
+								<em>Ipsum</em>
+							</div>
+						</div>
+					</div>
+				</a>
+			</div><div class="col-md-2 col-sm-6 graphics ads">
+				<a href="single-project.html" class="portfolio_item4">
+					<img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
+					<div class="portfolio_item_hover">
+						<div class="portfolio-border clearfix">
+							<div class="item_info">
+								<span>Lorem</span>
+								<em>Ipsum</em>
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>
+			<!-- end single work -->
+
+			<!-- single work -->
+			<div class="col-md-2 col-sm-6 graphics ads">
+				<a href="single-project.html" class="portfolio_item5">
+					<img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
+					<div class="portfolio_item_hover">
+						<div class="portfolio-border clearfix">
+							<div class="item_info">
+								<span>Lorem</span>
+								<em>Ipsum</em>
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>
+			<!-- end single work -->
+
+			<!-- single work -->
+			<div class="col-md-2 col-sm-6 graphics ads">
+				<a href="single-project.html" class="portfolio_item2">
+					<img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
+					<div class="portfolio_item_hover">
+						<div class="portfolio-border clearfix">
+							<div class="item_info">
+								<span>Lorem</span>
+								<em>Ipsum</em>
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>
+			<!-- end single work -->
+
+			<!-- single work -->
+			<div class="col-md-2 col-sm-6 graphics ads">
+				<a href="single-project.html" class="portfolio_item3">
+					<img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
+					<div class="portfolio_item_hover" >
+						<div class="portfolio-border clearfix">
+							<div class="item_info">
+								<span>Lorem</span>
+								<em>Ipsum</em>
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>
+			<!-- end single work -->
+		</div>
+		<!-- end portfolio_container -->
+	</div>
+	<!-- portfolio -->
+</div>
+<!-- end portfolio div -->
+<section id="fh5co-services" data-section="explore">
+			<div class="col-md-12 section-heading text-center loop">
+				<h2 style="top: -110px">DOmain</h2>
+										<div class="slideshow">
+										<img src="3"/>
+										<img src="#"/>
+										<img src="#"/>
+										<img src="#"/>
+										<img src="#"/>
+										<img src="#"/>
+									<script src="Design copy.js"></script>
+									</div> 
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+</section>
+
+<section id="fh5co-pricing" data-section="pricing">
+	<div class="col-md-12 section-heading text-center">
+		<h2 style="top: -20px; z-index: 20;">Courses</h2>
+    <div class="container5">
+        <div class="card5">
+            <div class="face face1">
+                <div class="content">
+                    <img src="ashok_sir_01.jpg">
+                    <h3>Lorem <br> ipsum</br></h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis non asperiores nostrum veritatis ab perferendis illo aliquid incidunt et nam? Officia veritatis non quidem quam eum quas delectus modi dolorum!</p>
+                        <!--<a href="#">Read More</a>-->
+                </div>
+            </div>
+        </div>
+        <div class="card5">
+            <div class="face face1">
+                <div class="content">
+					<img src="team_02.jpg" style="position: relative; height: 180px; top: 35px;">
+                    <h3 style="position: relative; top: 35px;">Lorem 
+					<br>	Ipsum </br></h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique animi maxime vitae ullam assumenda reprehenderit harum minima tempora earum, quas corrupti autem hic? Repellendus earum numquam molestias aspernatur voluptate animi!</p>
+                        <!--<a href="#">Read More</a>-->
+                </div>
+            </div>
+        </div><div class="card5">
+            <div class="face face1">
+                <div class="content">
+                    <img src="hritik_02.jpg">
+                    <h3>Lorem <br>Ipsum</br></h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem nostrum libero facere aspernatur inventore quaerat dolorem totam eveniet at deserunt, velit minus minima corporis voluptas praesentium a neque soluta. Ipsam!</p>
+                       <!--<a href="#">Read More</a>-->
+                </div>
+            </div>
+        </div>
+        <div class="card5">
+            <div class="face face1">
+                <div class="content">
+                    <img src="deepak_01.jpg">
+                    <h3>Lorem<br>Ipsum</br></h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore distinctio cumque sapiente maxime sint debitis dolores minus earum aliquam fuga vel iusto cupiditate laborum, animi amet asperiores deserunt dicta aperiam.</p>
+                        <!--<a href="#">Read More</a>-->
+                </div>
+            </div>
+        </div>
+	</div>
+</div>
+</div>
+</section>
+</section>
+  
+
+
+	<div id="fh5co-footer" role="contentinfo" style="position:relative; top: 0px;">
+		<div class="core">
+				<div class="col-md-4 to-animate">
+					<img src="#" alt="" style="position: relative; left: 565px; top: 50px; height: 150px;">
+					<i class="icon-mail2 to-animate2" style="position: relative; left: 305px; top: 151px; color: white;"></i>
+					<h3 class="section-title" style="left: 605px; top: 60px;">#0</h3>
+					<p class="copy-right" style="left: 620px;">&copy;Website<br> <br>
+						 <a href="" target="_blank"></a>
+						 <a href="" target="_blank"></a>
+					</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- <div id="map" class="fh5co-map"></div> -->
+ <!-- Preloader 
+ <div id="preloader">
+	<div class="pre-container">
+		<div class="spinner">
+			<div class="double-bounce1"></div>
+			<div class="double-bounce2"></div>
+		</div>
+	</div>
+</div>
+end Preloader -->
+
+<div class="container-fluid">
+	<!-- box header -->
+	<header class="box-header">
+		<div class="box-logo">
+			<a href="#"><img src="#" width="80" alt=""></a>
+		</div>
+		<!-- box-nav -->
+		<a class="box-primary-nav-trigger" href="#0">
+			<span class="box-menu-text">Menu</span><span class="box-menu-icon"></span>
+		</a>
+		<!-- box-primary-nav-trigger -->
+	</header>
+	<!-- end box header -->
+
+	<!-- nav -->
+	<nav>
+		<ul class="box-primary-nav">
+			<li class="box-label" style="color: #fff3bc;">mobile</li>
+
+			<li><a href="index.html">mobile</a> <i class="ion-ios-circle-filled color"></i></li>
+			<li><a href="about.html">mobile</a></li>
+			<li><a href="services.html">mobile</a></li>
+			<li><a href="portfolio.html">mobile</a></li>
+			<li><a href="contact.html">mobile</a></li>
+			<li><a href="#">mobile</a></li>
+			</ul>
+	</nav>
+	<!-- end nav -->
+
+<!-- back to top -->
+<a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
+<!-- end back to top -->
+
+
+
+<!-- jQuery -->
+<script src="./Box/js/jquery-2.1.1.js"></script>
+<!--  plugins -->
+<script src="./Box/js/bootstrap.min.js"></script>
+<script src="./Box/js/menu.js"></script>
+<script src="./Box/js/animated-headline.js"></script>
+<script src="./Box/js/isotope.pkgd.min.js"></script>
+
+
+<!--  custom script -->
+<script src="./Box/js/custom.js"></script>
+
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Counters -->
+	<script src="js/jquery.countTo.js"></script>
+	<!-- Main JS (Do not remove) -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
