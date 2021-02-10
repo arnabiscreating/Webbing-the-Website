@@ -5,4 +5,4 @@ This a website build by integrating code snippets found on internet and modifyin
 ## :video_camera: Showcase
 > The custom Website is at **https://encodearnab.github.io/Webbing-the-Website/**    
 
-<a href=# align="left" width="100" height="100"> :arrow_up_small: </a>
+<a href=# align="right" width="1000" height="1000"> :arrow_up_small: </a>
