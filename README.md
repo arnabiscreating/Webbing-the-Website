@@ -6,5 +6,5 @@ This a website build by integrating code snippets found on internet and modifyin
 > The custom Website is at **https://encodearnab.github.io/Webbing-the-Website/**    
 
 <p align="right">
-<a href=# align="right" width="1000"> :arrow_up_small: </a>
-</p>
+<a href=#> :arrow_up_small: </a> 
+</p>[Back to Top](#)
