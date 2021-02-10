@@ -5,6 +5,7 @@ This a website build by integrating code snippets found on internet and modifyin
 ## :video_camera: Showcase
 > The custom Website is at **https://encodearnab.github.io/Webbing-the-Website/**    
 
-<p align="right">
-<a href=#> Back to Top :arrow_up_small: </a> 
-</p>
+<!--<p align="right">
+<a href=#> Back to Top </a> 
+</p>-->
+[```Back to Top```](#)
