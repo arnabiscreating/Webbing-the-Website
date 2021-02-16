@@ -1,11 +1,12 @@
 #star-svg {
   position: fixed;
-  top: 75px;
-  left: -720px;
+  top: -725px;
+  left: -80px;
   width: 1600px;
-  height: 818px;
-  margin: -75px 0 0 -75px;
+  height: 1450px;
+  margin: 0px 0 0 0px;
   z-index: 0;
+  transform: rotate(270.1deg)
 }
 #star-svg1 {
   position: fixed;

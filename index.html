@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <html class="no-js">
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,16 +12,17 @@
     <!-- Bootstrap -->
     <link href="./Box/css/bootstrap.min.css" rel="stylesheet">
 	<link href="./Box/ionicons/css/ionicons.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="Design.css">
-	<link rel="stylesheet" href="Design copy 2.css">
-	<link rel="stylesheet" href="Design copy 3.css">
 
     <!-- main css -->
     <link href="./Box/css/style.css" rel="stylesheet">
-		<link rel="stylesheet" href="Design copy.css">
+
+	<!-- side css -->
+	<link rel="stylesheet" href="Designs/Design.css">
+	<link rel="stylesheet" href="Designs/Design1.css">
+	<link rel="stylesheet" href="Designs/Design2.css">
+	<link rel="stylesheet" href="Designs/Design3.css">
     <!-- modernizr -->
     <script src="./Box/js/modernizr.js"></script>
- 
 
   	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
@@ -51,7 +49,6 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<!-- Style -->
 	<link rel="stylesheet" href="css/style.css">
-
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -80,21 +77,21 @@
 		<div class="table-cell">
 			<h1 class="box-headline letters rotate-2">
 				<span class="box-words-wrapper">
-					 <b class="is-visible">Lorem.</b>
-					 <b>&nbsp;&nbsp; Ipsum.</b>
-					 <b>Lorem.</b>
-					 <b>Ipsum.</b>
+					 <b class="is-visible">Code</b>
+					 <b>Edit</b>
+					 <b>Debug</b>
+					 <b>Make</b>
 				</span>
 			</h1>
 		</div>
 		<video autoplay muted loop id="myVideo" style="
 			position: relative;
-			left: -360px;
+			left: -400px;
 			bottom: 0;
-			height:100vh;
+			height: 100vh;
 			min-width: 100%; 
 			min-height: 100%;
-			z-index:-20;
+			z-index: -20;
 		  ">
 		  <script>
 			  var e = document.getElementById("myVideo");
@@ -111,21 +108,21 @@ vid.oncanplaythrough = function() {
 function fade(element) {
     var op = 0;
     var timer = setInterval(function() {
-        if (op >= 0.4) clearInterval(timer);
+        if (op >= 0.5) clearInterval(timer);
         element.style.opacity = op;
         element.style.filter = 'alpha(opacity=' + op * 100 + ")";
         op += op * 0.1 || 0.1;
     }, 50);
 }
 		  </script>
-			<source src="Tunnel - 56628.mp4" type="video/mp4">
+			<source src="./Assets/Triangle - 45014.mp4" type="video/mp4">
 		  </video>
 		  <svg id="star-svg" width="5" height="1060" viewBox="0 0 5 1060" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<line id="star-path" x1="0.999998" y1="-0.00194174" x2="3.05825" y2="1060" stroke="#FFD000" stroke-width="2"/>
 			</svg>
 			
-			<script src="Design copy 2.js"></script>	
-			<script src="Design.js"></script>
+			<script src="Designs/Design2.js"></script>	
+			<script src="Designs/Design.js"></script>
 
 		<div class="mouse">
 			<div class="scroll"></div>
@@ -137,7 +134,7 @@ function fade(element) {
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 section-heading text-center">
-						<h2 class="to-animate" style="color: #ffffff;">Lorem</h2>
+						<h2 class="to-animate" style="color: #ffffff;">Let me introduce</h2>
 						<div class="row">
 							<div class="col-md-12 text-center subtext ">
 								<h3 class="to-animate">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
@@ -226,7 +223,7 @@ function fade(element) {
 			<!-- single work -->
 			<div class="col-md-2 col-sm-6 graphics ads">
 				<a href="single-project.html" class="portfolio_item">
-					<img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
+					<img src="./Assets/spider verse wallpaper 116 - 2560x2560.jpg" alt="image" class="img-responsive" />
 					<div class="portfolio_item_hover">
 						<div class="portfolio-border clearfix">
 							<div class="item_info">
@@ -242,7 +239,7 @@ function fade(element) {
 			<!-- single work -->
 			<div class="col-md-2 col-sm-6 graphics ads">
 				<a href="single-project.html" class="portfolio_item1">
-					<img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
+					<img src="./Assets/spider verse wallpaper 116 - 2560x2560.jpg" alt="image" class="img-responsive" />
 					<div class="portfolio_item_hover">
 						<div class="portfolio-border clearfix">
 							<div class="item_info">
@@ -254,7 +251,7 @@ function fade(element) {
 				</a>
 			</div><div class="col-md-2 col-sm-6 graphics ads">
 				<a href="single-project.html" class="portfolio_item4">
-					<img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
+					<img src="./Assets/spider verse wallpaper 116 - 2560x2560.jpg" alt="image" class="img-responsive" />
 					<div class="portfolio_item_hover">
 						<div class="portfolio-border clearfix">
 							<div class="item_info">
@@ -270,7 +267,7 @@ function fade(element) {
 			<!-- single work -->
 			<div class="col-md-2 col-sm-6 graphics ads">
 				<a href="single-project.html" class="portfolio_item5">
-					<img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
+					<img src="./Assets/spider verse wallpaper 116 - 2560x2560.jpg" alt="image" class="img-responsive" />
 					<div class="portfolio_item_hover">
 						<div class="portfolio-border clearfix">
 							<div class="item_info">
@@ -286,7 +283,7 @@ function fade(element) {
 			<!-- single work -->
 			<div class="col-md-2 col-sm-6 graphics ads">
 				<a href="single-project.html" class="portfolio_item2">
-					<img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
+					<img src="./Assets/spider verse wallpaper 116 - 2560x2560.jpg" alt="image" class="img-responsive" />
 					<div class="portfolio_item_hover">
 						<div class="portfolio-border clearfix">
 							<div class="item_info">
@@ -302,7 +299,7 @@ function fade(element) {
 			<!-- single work -->
 			<div class="col-md-2 col-sm-6 graphics ads">
 				<a href="single-project.html" class="portfolio_item3">
-					<img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
+					<img src="./Assets/spider verse wallpaper 116 - 2560x2560.jpg" alt="image" class="img-responsive" />
 					<div class="portfolio_item_hover" >
 						<div class="portfolio-border clearfix">
 							<div class="item_info">
@@ -322,15 +319,15 @@ function fade(element) {
 <!-- end portfolio div -->
 <section id="fh5co-services" data-section="explore">
 			<div class="col-md-12 section-heading text-center loop">
-				<h2 style="top: -110px">DOmain</h2>
+				<h2 style="top: -110px">Let me visualise</h2>
 										<div class="slideshow">
-										<img src="3"/>
-										<img src="#"/>
-										<img src="#"/>
-										<img src="#"/>
-										<img src="#"/>
-										<img src="#"/>
-									<script src="Design copy.js"></script>
+										<img src="./Assets/spider verse wallpaper 116 - 2560x2560.jpg"/>
+										<img src="./Assets/spider verse wallpaper 116 - 2560x2560.jpg"/>
+										<img src="./Assets/spider verse wallpaper 116 - 2560x2560.jpg"/>
+										<img src="./Assets/spider verse wallpaper 116 - 2560x2560.jpg"/>
+										<img src="./Assets/spider verse wallpaper 116 - 2560x2560.jpg"/>
+										<img src="./Assets/spider verse wallpaper 116 - 2560x2560.jpg"/>
+									<script src="Designs/Design1.js"></script>
 									</div> 
 								</div>
 							</div>
@@ -343,13 +340,13 @@ function fade(element) {
 
 <section id="fh5co-pricing" data-section="pricing">
 	<div class="col-md-12 section-heading text-center">
-		<h2 style="top: -20px; z-index: 20;">Courses</h2>
+		<h2 style="top: -20px; z-index: 20; padding-bottom: 50px;">What is it all about ?</h2>
     <div class="container5">
         <div class="card5">
             <div class="face face1">
                 <div class="content">
-                    <img src="">
-                    <h3>Lorem <br> ipsum</br></h3>
+                    <img src="./Assets/spider verse wallpaper 116 - 2560x2560.jpg">
+                    <h3>Lorem Ipsum</br></h3>
                 </div>
             </div>
             <div class="face face2">
@@ -362,9 +359,8 @@ function fade(element) {
         <div class="card5">
             <div class="face face1">
                 <div class="content">
-					<img src="" style="position: relative; height: 180px; top: 35px;">
-                    <h3 style="position: relative; top: 35px;">Lorem 
-					<br>	Ipsum </br></h3>
+					<img src="./Assets/spider verse wallpaper 116 - 2560x2560.jpg">
+                    <h3>Lorem Ipsum</br></h3>
                 </div>
             </div>
             <div class="face face2">
@@ -376,8 +372,8 @@ function fade(element) {
         </div><div class="card5">
             <div class="face face1">
                 <div class="content">
-                    <img src="">
-                    <h3>Lorem <br>Ipsum</br></h3>
+                    <img src="./Assets/spider verse wallpaper 116 - 2560x2560.jpg">
+                    <h3>Lorem Ipsum</br></h3>
                 </div>
             </div>
             <div class="face face2">
@@ -390,8 +386,8 @@ function fade(element) {
         <div class="card5">
             <div class="face face1">
                 <div class="content">
-                    <img src="">
-                    <h3>Lorem<br>Ipsum</br></h3>
+                    <img src="./Assets/spider verse wallpaper 116 - 2560x2560.jpg">
+                    <h3>Lorem Ipsum</br></h3>
                 </div>
             </div>
             <div class="face face2">
@@ -413,9 +409,9 @@ function fade(element) {
 		<div class="core">
 				<div class="col-md-4 to-animate">
 					<img src="#" alt="" style="position: relative; left: 565px; top: 50px; height: 150px;">
-					<i class="icon-mail2 to-animate2" style="position: relative; left: 305px; top: 151px; color: white;"></i>
-					<h3 class="section-title" style="left: 605px; top: 60px;">#0</h3>
-					<p class="copy-right" style="left: 620px;">&copy;Website<br> <br>
+					<!--<i class="icon-mail2 to-animate2" style="position: relative; left: 305px; top: 151px; color: white;"></i>-->
+					<h3 class="section-title" style="left: 605px; top: 60px;"></h3>
+					<p class="copy-right" style="left: 620px;">&copy; Webbing the Website<br> <br>
 						 <a href="" target="_blank"></a>
 						 <a href="" target="_blank"></a>
 					</p>
@@ -444,7 +440,7 @@ end Preloader -->
 		</div>
 		<!-- box-nav -->
 		<a class="box-primary-nav-trigger" href="#0">
-			<span class="box-menu-text">Menu</span><span class="box-menu-icon"></span>
+			<span class="box-menu-text" style="font-weight:900; font-size: larger;">Menu</span><span class="box-menu-icon"></span>
 		</a>
 		<!-- box-primary-nav-trigger -->
 	</header>
@@ -453,7 +449,7 @@ end Preloader -->
 	<!-- nav -->
 	<nav>
 		<ul class="box-primary-nav">
-			<li class="box-label" style="color: #fff3bc;">mobile</li>
+			<li class="box-label" style="color: #fffd00;">mobile</li>
 
 			<li><a href="index.html">mobile</a> <i class="ion-ios-circle-filled color"></i></li>
 			<li><a href="about.html">mobile</a></li>
